@@ -490,7 +490,7 @@ img {
 }
 
 .arrow-left, .arrow-leftDown, .arrow-leftHover, .arrow-right, .arrow-rightDown, .arrow-rightHover, .cart, .cartDown, .cartHover, .copyright, .copyrightDown, .copyrightHover, .fb, .fbDown, .fbHover, .feature1-flower, .feature2-money, .feature3-heart, .feature4-ball, .feature5-rocket, .feature6-gift, .flag, .insta, .instaDown, .instaHover, .interior, .logo-desktop, .logo-footer, .logo-footerDown, .logo-footerHover, .logo-mobile, .logo-tablet, .map-pin, .menu-close, .menu-ham, .phone, .phoneH-A, .play, .playDown, .playHover, .search, .searchDown, .searchHover, .toy, .twitter, .twitterDown, .twitterHover, .video {
-  background: url(sprites.png) no-repeat;
+  background: url('../img/sprites.png') no-repeat;
 }
 
 .arrow-left {
@@ -784,7 +784,8 @@ img {
 .bg-mail {
   width: 32px;
   height: 21px;
-  background: url "css_sprites.png" -10px -10px;
+  background: url("../css_sprites.png") no-repeat ;
+  background-position: -10px -10px;
 }
 
 body {
@@ -962,7 +963,7 @@ img {
 
 .menu-top__link-cart {
   display: inline-block;
-  background: url("img/sprites.png") no-repeat;
+  background: url("../img/sprites.png") no-repeat;
   background-position: -16px -214px;
   width: 21px;
   height: 18px;
@@ -973,7 +974,7 @@ img {
 }
 
 .menu-top__link-cart:hover {
-  background: url('img/sprites.png') no-repeat;
+  background: url('../img/sprites.png') no-repeat;
   background-position: -65px -215px;
   width: 21px;
   height: 18px;
@@ -984,7 +985,7 @@ img {
 }
 
 .menu-top__link-cart:active {
-  background: url('img/sprites.png') no-repeat;
+  background: url('../img/sprites.png') no-repeat;
   background-position: -114px -215px;
   width: 21px;
   height: 18px;
@@ -1099,7 +1100,7 @@ input.search-input::placeholder {
 button.search-submit {
   border: none;
   cursor: pointer;
-  background: url('img/sprites.png') no-repeat;
+  background: url('../img/sprites.png') no-repeat;
   background-position: -16px -261px;
   width: 18px;
   height: 19px;
@@ -1111,7 +1112,7 @@ button.search-submit {
 }
 
 button.search-submit:hover {
-  background: url('img/sprites.png') no-repeat;
+  background: url('../img/sprites.png') no-repeat;
   background-position: -62px -260px;
   width: 18px;
   height: 18px;
@@ -1122,7 +1123,7 @@ button.search-submit:hover {
 }
 
 button.search-submit:active {
-  background: url('img/sprites.png') no-repeat;
+  background: url('../img/sprites.png') no-repeat;
   background-position: -114px -259px;
   width: 18px;
   height: 18px;
@@ -1353,7 +1354,7 @@ button.search-submit:hover {
   }
   .menu-top__logo-img {
     display: block;
-    background: url('img/sprites.png') -579px -9px no-repeat;
+    background: url('../img/sprites.png') -579px -9px no-repeat;
     width: 149px;
     height: 72px;
     margin: 5px auto;
@@ -1460,7 +1461,7 @@ button.search-submit:hover {
 
 @media only screen and (max-width: 767px) {
   .menu-bottom__bg {
-    background: url('img/header-mobile-1x.jpg');
+    background: url('../img/header-mobile-1x.jpg');
     background-position: 50% -17%;
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -1522,7 +1523,7 @@ button.search-submit:hover {
 .menu-bottom__link--left::before {
   position: absolute;
   content: "";
-  background: url('img/sprites.png') no-repeat;
+  background: url('../img/sprites.png') no-repeat;
   background-position: -226px -12px;
   width: 41px;
   height: 62px;
@@ -1533,7 +1534,7 @@ button.search-submit:hover {
 .menu-bottom__link--right::before {
   position: absolute;
   content: "";
-  background: url('img/sprites.png') no-repeat;
+  background: url('../img/sprites.png') no-repeat;
   background-position: -315px -12px;
   width: 61px;
   height: 61px;
@@ -1561,7 +1562,7 @@ button.search-submit:hover {
     height: 748px;
   }
   .menu-bottom__bg {
-    background: url('img/header-tablet-2x.jpg');
+    background: url('../img/header-tablet-2x.jpg');
     background-position: center -3px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1654,7 +1655,7 @@ button.search-submit:hover {
     width: 1200px;
   }
   .menu-bottom__bg {
-    background: url('img/header-desktop-2x.jpg');
+    background: url('../img/header-desktop-2x.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1843,14 +1844,14 @@ button.search-submit:hover {
 }
 
 .main-catalog .catalog .catalog-price__link-pic {
-  background: url("img/sprites.png") -16px -214px;
+  background: url("../img/sprites.png") -16px -214px;
   width: 21px;
   height: 18px;
   opacity: 1;
 }
 
 .main-catalog .catalog .catalog-price__link-pic:hover {
-  background: url("img/sprites.png") -65px -215px;
+  background: url("../img/sprites.png") -65px -215px;
   width: 21px;
   height: 18px;
 }
@@ -1884,7 +1885,7 @@ button.search-submit:hover {
 }
 
 .main-catalog .player-video__link-pic {
-  background: url("img/sprites.png") -314px -263px;
+  background: url("../img/sprites.png") -314px -263px;
   position: absolute;
   width: 32px;
   height: 22px;
@@ -1903,7 +1904,7 @@ button.search-submit:hover {
 }
 
 .main-catalog .player-video .video-page__link-pic {
-  background: url("img/sprites.png") -739px -11px;
+  background: url("../img/sprites.png") -739px -11px;
   width: 102px;
   height: 78px;
   cursor: pointer;
@@ -1914,13 +1915,13 @@ button.search-submit:hover {
 }
 
 .main-catalog .player-video .video-page__link-pic:hover {
-  background: url("img/sprites.png") -719px -93px;
+  background: url("../img/sprites.png") -719px -93px;
   width: 121px;
   height: 92px;
 }
 
 .main-catalog .player-video .video-page__link-pic:active {
-  background: url("img/sprites.png") -745px -197px;
+  background: url("../img/sprites.png") -745px -197px;
   width: 81px;
   height: 62px;
 }
@@ -2729,14 +2730,14 @@ button.search-submit:hover {
     margin-left: 110px;
   }
   .main-catalog .player-video__link-pic {
-    background: url("img/sprites.png") -314px -263px;
+    background: url("../img/sprites.png") -314px -263px;
     width: 32px;
     height: 22px;
     margin-left: 45px;
     margin-top: 36px;
   }
   .main-catalog .player-video .video-page__video img {
-    background: url("img/video-tablet-1x.jpg") no-repeat 50% 50%;
+    background: url("../img/video-tablet-1x.jpg") no-repeat 50% 50%;
     min-height: 455px;
     margin-left: 0px;
     margin-top: 0px;
@@ -2750,7 +2751,7 @@ button.search-submit:hover {
     width: 102px;
     height: 78px;
     cursor: pointer;
-    background: url("img/sprites.png") -739px -11px;
+    background: url("../img/sprites.png") -739px -11px;
     margin-top: 189px;
     left: 43%;
   }
@@ -2892,7 +2893,7 @@ button.search-submit:hover {
     margin-top: 44px;
   }
   body .main-catalog .player-video .video-page__video {
-    background: url("img/video-desktop.png") no-repeat;
+    background: url("../img/video-desktop.png") no-repeat;
     width: 682px;
     height: 455px;
     margin-top: 0px;
@@ -2963,7 +2964,7 @@ button.search-submit:hover {
 .about-us__feature--fabric::before {
   content: '';
   display: block;
-  background: url('img/sprites.png');
+  background: url('../img/sprites.png');
   background-position: -157px -7px;
   width: 33px;
   height: 38px;
@@ -2973,7 +2974,7 @@ button.search-submit:hover {
 .about-us__feature--style::before {
   content: '';
   display: block;
-  background: url('img/sprites.png');
+  background: url('../img/sprites.png');
   background-position: -151px -58px;
   width: 47px;
   height: 27px;
@@ -2983,7 +2984,7 @@ button.search-submit:hover {
 .about-us__feature--likes:before {
   content: '';
   display: block;
-  background: url('img/sprites.png');
+  background: url('../img/sprites.png');
   background-position: -157px -109px;
   width: 34px;
   height: 27px;
@@ -2993,7 +2994,7 @@ button.search-submit:hover {
 .about-us__feature--love:before {
   content: '';
   display: block;
-  background: url('img/sprites.png');
+  background: url('../img/sprites.png');
   background-position: -155px -156px;
   width: 35px;
   height: 34px;
@@ -3003,7 +3004,7 @@ button.search-submit:hover {
 .about-us__feature--native:before {
   content: '';
   display: block;
-  background: url('img/sprites.png');
+  background: url('../img/sprites.png');
   background-position: -159px -212px;
   width: 48px;
   height: 23px;
@@ -3013,7 +3014,7 @@ button.search-submit:hover {
 .about-us__feature--box:before {
   content: '';
   display: block;
-  background: url('img/sprites.png');
+  background: url('../img/sprites.png');
   background-position: -157px -255px;
   width: 33px;
   height: 32px;
@@ -3084,7 +3085,7 @@ button.search-submit:hover {
 }
 
 .slider__btn-left {
-  background: url('img/sprites.png') -193px -100px no-repeat;
+  background: url('../img/sprites.png') -193px -100px no-repeat;
   width: 125px;
   height: 26px;
   border: 1px solid #ececec;
@@ -3093,7 +3094,7 @@ button.search-submit:hover {
 }
 
 .slider__btn-right {
-  background: url('img/sprites.png') -277px -99px no-repeat;
+  background: url('../img/sprites.png') -277px -99px no-repeat;
   width: 126px;
   height: 26px;
   border: 1px solid #ececec;
@@ -3170,7 +3171,7 @@ button.search-submit:hover {
     margin: 50px 0;
   }
   .slider__bg {
-    background-image: url('img/review-1x.jpg');
+    background-image: url('../img/review-1x.jpg');
     background-position: left;
     background-repeat: no-repeat;
     background-size: 345px 455px;
@@ -3270,7 +3271,7 @@ button.search-submit:hover {
     width: 140px;
   }
   .slider__btn-left {
-    background: url('img/sprites.png') -225px -109px no-repeat;
+    background: url('../img/sprites.png') -225px -109px no-repeat;
     width: 50px;
     height: 26px;
     border: none;
@@ -3278,7 +3279,7 @@ button.search-submit:hover {
     margin-right: 35px;
   }
   .slider__btn-right {
-    background: url('img/sprites.png') -321px -108px no-repeat;
+    background: url('../img/sprites.png') -321px -108px no-repeat;
     width: 50px;
     height: 26px;
     border: none;
@@ -3495,7 +3496,7 @@ button.search-submit:hover {
     width: 204px;
   }
   .contacts__icon {
-    background: url('img/sprites.png');
+    background: url('../img/sprites.png');
     background-position: -405px -113px;
     width: 47px;
     height: 90px;
@@ -3983,7 +3984,7 @@ button.search-submit:hover {
   content: '';
   top: -38px;
   left: 230px;
-  background: url("img/sprites.png") -212px -263px;
+  background: url("../img/sprites.png") -212px -263px;
   width: 25px;
   height: 24px;
 }
@@ -4007,7 +4008,7 @@ button.search-submit:hover {
   content: '';
   top: -38px;
   left: 230px;
-  background: url("img/sprites.png") -264px -263px;
+  background: url("../img/sprites.png") -264px -263px;
   width: 25px;
   height: 24px;
 }
@@ -4023,7 +4024,7 @@ button.search-submit:hover {
 .form-page__label--email::after {
   position: absolute;
   content: "";
-  background: url("img/css_sprites.png") -10px -10px;
+  background: url("../img/css_sprites.png") -10px -10px;
   width: 32px;
   height: 21px;
   top: -38px;
@@ -4463,7 +4464,7 @@ button.search-submit:hover {
     content: '';
     top: 43px;
     left: -52px;
-    background: url("img/sprites.png") -212px -263px;
+    background: url("../img/sprites.png") -212px -263px;
     width: 25px;
     height: 24px;
   }
@@ -4482,7 +4483,7 @@ button.search-submit:hover {
     content: '';
     top: 43px;
     left: -52px;
-    background: url("img/sprites.png") -264px -263px;
+    background: url("../img/sprites.png") -264px -263px;
     width: 25px;
     height: 24px;
   }
@@ -4693,7 +4694,7 @@ button.search-submit:hover {
     content: '';
     top: 43px;
     left: -172px;
-    background: url("img/sprites.png") -264px -263px;
+    background: url("../img/sprites.png") -264px -263px;
     width: 25px;
     height: 24px;
   }
@@ -4763,63 +4764,63 @@ button.search-submit:hover {
 
 .footer__insta {
   display: inline-block;
-  background: url("img/sprites.png") -14px -60px;
+  background: url("../img/sprites.png") -14px -60px;
   width: 24px;
   height: 24px;
 }
 
 .footer__insta:hover {
   display: inline-block;
-  background: url("img/sprites.png") -62px -61px;
+  background: url("../img/sprites.png") -62px -61px;
   width: 24px;
   height: 24px;
 }
 
 .footer__insta:active {
   display: inline-block;
-  background: url("img/sprites.png") -114px -60px;
+  background: url("../img/sprites.png") -114px -60px;
   width: 24px;
   height: 24px;
 }
 
 .footer__facebook {
   display: inline-block;
-  background: url("img/sprites.png") -15px -108px;
+  background: url("../img/sprites.png") -15px -108px;
   width: 20px;
   height: 32px;
 }
 
 .footer__facebook:hover {
   display: inline-block;
-  background: url("img/sprites.png") -62px -108px;
+  background: url("../img/sprites.png") -62px -108px;
   width: 20px;
   height: 32px;
 }
 
 .footer__facebook:active {
   display: inline-block;
-  background: url("img/sprites.png") -112px -109px;
+  background: url("../img/sprites.png") -112px -109px;
   width: 20px;
   height: 32px;
 }
 
 .footer__twitter {
   display: inline-block;
-  background: url("img/sprites.png") -13px -13px;
+  background: url("../img/sprites.png") -13px -13px;
   width: 26px;
   height: 22px;
 }
 
 .footer__twitter:hover {
   display: inline-block;
-  background: url("img/sprites.png") -59px -14px;
+  background: url("../img/sprites.png") -59px -14px;
   width: 26px;
   height: 22px;
 }
 
 .footer__twitter:active {
   display: inline-block;
-  background: url("img/sprites.png") -110px -14px;
+  background: url("../img/sprites.png") -110px -14px;
   width: 26px;
   height: 22px;
 }
@@ -4856,14 +4857,14 @@ button.search-submit:hover {
   }
   .footer__logo-link:hover {
     display: inline-block;
-    background: url("img/sprites.png") -600px -132px;
+    background: url("../img/sprites.png") -600px -132px;
     width: 102px;
     height: 34px;
     margin-left: 25px;
   }
   .footer__logo-link:active {
     display: inline-block;
-    background: url("img/sprites.png") -600px -173px;
+    background: url("../img/sprites.png") -600px -173px;
     width: 102px;
     height: 34px;
   }
@@ -4885,7 +4886,7 @@ button.search-submit:hover {
   }
   .footer__logo-link:hover {
     display: inline-block;
-    background: url("img/sprites.png") -600px -132px;
+    background: url("../img/sprites.png") -600px -132px;
     width: 102px;
     height: 34px;
     margin-left: 39px;
@@ -4918,7 +4919,7 @@ button.search-submit:hover {
 
 .footer__icon {
   display: inline-block;
-  background: url("img/sprites.png") no-repeat;
+  background: url("../img/sprites.png") no-repeat;
   background-position: -14px -158px;
   width: 27px;
   height: 34px;
@@ -4927,7 +4928,7 @@ button.search-submit:hover {
 }
 
 .footer__icon:hover {
-  background: url("img/sprites.png") no-repeat;
+  background: url("../img/sprites.png") no-repeat;
   background-position: -61px -160px;
   width: 27px;
   height: 34px;
@@ -4936,7 +4937,7 @@ button.search-submit:hover {
 }
 
 .footer__icon:active {
-  background: url("img/sprites.png") no-repeat;
+  background: url("../img/sprites.png") no-repeat;
   background-position: -108px -159px;
   width: 27px;
   height: 34px;
